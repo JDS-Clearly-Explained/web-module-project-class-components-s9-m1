@@ -2,6 +2,7 @@ import React from 'react'
 
 export default class Form extends React.Component {
   render() {
+    {/* // destructure props */}
     const {
       value,
       onSubmit,

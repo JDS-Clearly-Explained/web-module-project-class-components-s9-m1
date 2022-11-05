@@ -1,6 +1,7 @@
 import React from 'react'
 import Todo from './Todo'
 
+// TodoList component. Renders a list of todos. It takes in a list of todos and a function to toggle a todo as completed. It then maps over the list of todos and renders a Todo component for each todo. It also passes in the toggleCompleted function to the Todo component.
 export default class TodoList extends React.Component {
   render() {
     return (
